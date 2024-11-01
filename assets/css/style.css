@@ -1,13 +1,13 @@
-* {
-    margin: 0;
+* {  margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #39A6B2;
 }
+/* Nav */
 header {
     background-color: #39A6B2;
     padding: 20px 35px;
@@ -40,6 +40,7 @@ header nav ul li a {
     font-weight: lighter;
     font-family: 22px;
 }
+/* Nav End */
 
 footer {
     background-color: #FCE138;
@@ -62,3 +63,27 @@ footer div {
 footer a {
     color: #024E76;
 }
+/* Footer End */
+
+/* Hero style Starts */
+
+.hero {   
+    background-image:url(../images/hero-bg.jpg);
+    padding: 60px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-form{
+    background-color: #FCE138;
+    padding: 20px;
+    width: 500px;
+    color: #024E76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024E76;
+    border: solid 3px #024E76 ; 
+    /* sytle width color = sold 3px #024E76 */
+}
+/* Hero style End */
