@@ -1,13 +1,16 @@
+/* Universal selector */
 * {  margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
 
+/* element selector */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #39A6B2;
 }
-/* Nav */
+
+/* Navigation start */
 header {
     background-color: #39A6B2;
     padding: 20px 35px;
@@ -40,8 +43,9 @@ header nav ul li a {
     font-weight: lighter;
     font-family: 22px;
 }
-/* Nav End */
+/* Navagation End */
 
+/* Footer strt */
 footer {
     background-color: #FCE138;
     width: 100%;
@@ -65,7 +69,7 @@ footer a {
 }
 /* Footer End */
 
-/*    style Starts */
+/* hero style Starts */
 
 .hero {   
     background-image:url(../images/hero-bg.jpg);
@@ -86,4 +90,5 @@ footer a {
     border: solid 3px #024E76 ; 
     /* sytle width color = sold 3px #024E76 */
 }
+
 /* Hero style End */
