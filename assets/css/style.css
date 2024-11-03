@@ -138,6 +138,22 @@ section {
 .intro{
     text-align: center;
 }
+
+.intro h2 {
+    font-size: 55px;
+    color: #024E76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #FCE138;
+}
+
+.intro h2 {
+    /* add this alongside 
+    your other declaration */
+    display: inline-block;
+}
+
 .intro p {
     line-height: 1.7;
     font-size: 20px;
@@ -145,6 +161,12 @@ section {
     width: 80%;
     color: #39A6B2;
 }
+
+.intro p {
+    /* add this alogside your other declaration */
+    margin: 0 auto;
+}
+
 .steps {
     text-align: center;
     background: #FCE138;
