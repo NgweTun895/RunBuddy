@@ -1,3 +1,10 @@
+.root {
+    --primary-color:#fce138;
+    --secondary-color:#39A6B2;
+    --tertiary-color:#024E76;
+    --feature-color: white;
+
+}
 /* Universal selector */
 * {  margin: 0;
     padding: 0;
@@ -7,13 +14,14 @@
 /* element selector */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #39A6B2;
+    color: #;
 }
 
 /* Navigation start */
 header {
     background-color: #39A6B2;
     padding: 20px 35px;
+    
 }
 
 header h1 {
@@ -26,6 +34,7 @@ header h1 {
 
 header a {
     color: #FCE138;
+    text-decoration: none;
     text-decoration: none;
 }
 
@@ -295,5 +304,40 @@ section {
     line-height: 1.3;
   
   }
+.contact {
+    text-align: ;
+    background: #024E76;
+}
+ 
+.contact h2 {
+    color: #FCE138;
 
+}
+.contact-info iframe {
+    width: 400;
+    height: 400;
 
+}
+.contact-info div {
+    width: 410;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+}
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+
+}
+.contact-info p
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #FCE138;
+}
